@@ -56,7 +56,7 @@
             this.label2.Location = new System.Drawing.Point(261, 600);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(141, 18);
+            this.label2.Size = new System.Drawing.Size(169, 22);
             this.label2.TabIndex = 2;
             this.label2.Text = "Forgotten password";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -69,7 +69,7 @@
             this.label3.Location = new System.Drawing.Point(150, 81);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(189, 37);
+            this.label3.Size = new System.Drawing.Size(236, 46);
             this.label3.TabIndex = 4;
             this.label3.Text = "Welcome !.";
             this.label3.Click += new System.EventHandler(this.label3_Click_1);
@@ -79,7 +79,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(0, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 18);
+            this.label4.Size = new System.Drawing.Size(58, 22);
             this.label4.TabIndex = 10;
             this.label4.Text = "label4";
             // 
@@ -91,7 +91,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(85, 201);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(49, 34);
+            this.pictureBox1.Size = new System.Drawing.Size(49, 28);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -113,7 +113,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(0, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 18);
+            this.label6.Size = new System.Drawing.Size(58, 22);
             this.label6.TabIndex = 15;
             this.label6.Text = "label6";
             // 
@@ -122,7 +122,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(0, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(46, 18);
+            this.label7.Size = new System.Drawing.Size(58, 22);
             this.label7.TabIndex = 16;
             this.label7.Text = "label7";
             // 
@@ -132,13 +132,14 @@
             this.forgorPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.forgorPassword.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.forgorPassword.LinkColor = System.Drawing.Color.Black;
-            this.forgorPassword.Location = new System.Drawing.Point(285, 325);
+            this.forgorPassword.Location = new System.Drawing.Point(259, 327);
             this.forgorPassword.Name = "forgorPassword";
-            this.forgorPassword.Size = new System.Drawing.Size(109, 15);
+            this.forgorPassword.Size = new System.Drawing.Size(135, 18);
             this.forgorPassword.TabIndex = 17;
             this.forgorPassword.TabStop = true;
             this.forgorPassword.Text = "Forgot Password ?";
             this.forgorPassword.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.forgorPassword.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.forgorPassword_LinkClicked);
             // 
             // username
             // 
@@ -148,7 +149,7 @@
             this.username.ForeColor = System.Drawing.Color.Black;
             this.username.Location = new System.Drawing.Point(141, 201);
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(253, 28);
+            this.username.Size = new System.Drawing.Size(253, 34);
             this.username.TabIndex = 19;
             // 
             // label1
@@ -156,7 +157,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 18);
+            this.label1.Size = new System.Drawing.Size(58, 22);
             this.label1.TabIndex = 21;
             this.label1.Text = "label1";
             // 
@@ -167,7 +168,7 @@
             this.label_username.ForeColor = System.Drawing.Color.Black;
             this.label_username.Location = new System.Drawing.Point(82, 172);
             this.label_username.Name = "label_username";
-            this.label_username.Size = new System.Drawing.Size(78, 16);
+            this.label_username.Size = new System.Drawing.Size(94, 20);
             this.label_username.TabIndex = 22;
             this.label_username.Text = "Username";
             // 
@@ -178,7 +179,7 @@
             this.label_password.ForeColor = System.Drawing.Color.Black;
             this.label_password.Location = new System.Drawing.Point(82, 248);
             this.label_password.Name = "label_password";
-            this.label_password.Size = new System.Drawing.Size(75, 16);
+            this.label_password.Size = new System.Drawing.Size(91, 20);
             this.label_password.TabIndex = 23;
             this.label_password.Text = "Password";
             this.label_password.Click += new System.EventHandler(this.label9_Click);
@@ -191,7 +192,7 @@
             this.password.ForeColor = System.Drawing.Color.Black;
             this.password.Location = new System.Drawing.Point(141, 278);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(253, 28);
+            this.password.Size = new System.Drawing.Size(253, 34);
             this.password.TabIndex = 25;
             // 
             // pictureBox2
@@ -202,17 +203,17 @@
             this.pictureBox2.Location = new System.Drawing.Point(85, 278);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(49, 34);
+            this.pictureBox2.Size = new System.Drawing.Size(49, 28);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 24;
             this.pictureBox2.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(517, 523);
+            this.ClientSize = new System.Drawing.Size(484, 523);
             this.Controls.Add(this.password);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label_password);

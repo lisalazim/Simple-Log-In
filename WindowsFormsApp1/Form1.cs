@@ -57,7 +57,7 @@ namespace WindowsFormsApp1
         {
             if (username.Text == "lalalisa" &&  password.Text == "4444")
             {
-                new Form2().Show();
+                new Hello().Show();
                 this.Hide();
             }
                 
@@ -79,6 +79,11 @@ namespace WindowsFormsApp1
         private void label3_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void forgorPassword_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new Form3().Show();
         }
     }
 }
