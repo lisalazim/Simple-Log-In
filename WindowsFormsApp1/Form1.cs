@@ -53,21 +53,24 @@ namespace WindowsFormsApp1
 
         }
 
+        private string storedPassword;
         private void logIn_Click(object sender, EventArgs e)
         {
-            if (username.Text == "lalalisa" &&  password.Text == "4444")
+
+          
+            if (username.Text == "lalalisa" && password.Text == storedPassword)
             {
-                new Hello().Show();
+                new form2().Show();
                 this.Hide();
             }
-                
+
             else
-            { 
-                MessageBox.Show("Oops! your username or your password is incorrect.");
+            {
+                MessageBox.Show("Oops! your username or your password is incorrect.", "incorrect", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 username.ResetText();
                 password.ResetText();
                 username.Focus();
-            
+
             }
         }
 
@@ -83,7 +86,11 @@ namespace WindowsFormsApp1
 
         private void forgorPassword_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            new Form3().Show();
+            Form3 form3 = new Form3();
+            form3.ShowDialog();
+            storedPassword = form3.NewPassword; // Gunakan password baru untuk login ulang
+
         }
     }
 }
+
